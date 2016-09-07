@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:ems="10"
+              android:id="@+id/editText1"/>
+
+    <Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/button1"
+            android:text="OK"/>
+
+
+    <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView1"
+        android:text="您的性别是"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:text="_____"/>
+
+</LinearLayout>
+
+
+    -<RadioGroup
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/RadioGroupSex">
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/radioButton1"
+        android:text="男"
+        android:checked="true"
+        android:layout_weight="0.50"/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/radioButton2"
+        android:text="女"
+        android:layout_weight="0.50"/>
+
+</RadioGroup>
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView3"
+        android:text="您的性格是（多选）"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView4"
+        android:text="_"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView5"
+        android:text="_"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView6"
+        android:text="_"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView7"
+        android:text="_"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView8"
+        android:text="_"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView9"
+        android:text="_"/>
+
+</LinearLayout>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/checkBox1"
+        android:text="开朗"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/checkBox2"
+        android:text="内向"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/checkBox3"
+        android:text="怕生"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/checkBox4"
+        android:text="有亲和力"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/checkBox5"
+        android:text="外向"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/checkBox6"
+        android:text="学习能力强"/>
+</LinearLayout>
